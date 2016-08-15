@@ -1,6 +1,6 @@
 
 
-$.get("file.json",function(data){
+$.get("questions.json",function(data){
   console.log(data);
 });
 function setQuest (json) {
