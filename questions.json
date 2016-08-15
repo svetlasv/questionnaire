@@ -1,20 +1,28 @@
-questions = {
-	"question1": {
+{	"title": "JS HTML questions",
+	"questions": [
+		{
 		"text": "What is the result of the next code? <br> var x = 5; <br> alert(x++);",
 		"answers": ["a) 5", "b) 6", "c) undefined", "d) 1"],
 		"correct": [0],
 		"multi": "false"
-	},
-	"question2": {
+		},
+		{
 		"text": "What is the result of the next code? <br> var x = 5; <br> alert(x++);",
 		"answers": ["a) 1,2,3,4", "b) 3,1,2,4", "c) 4,1,2,3", "d) there is an error"],
 		"correct": [3],
 		"multi": "false"
-	},
-	"question3": {
+		},
+		{
 		"text": "Which of parseInt call will not return a number?",
 		"answers": ["a) parseInt('1px')", "b) parseInt('-1.2')", "c) parseInt('0 minutes')", "d) parseInt('$1.2')"],
 		"correct": [3],
 		"multi": "false"
-	}
+		},
+		{
+		"text": "Choose possible methods to add just created node to DOM",
+		"answers": ["a) cloneNode", "b) createElement", "c) removeChild", "d) appendChild", "e) insertBefore"],
+		"correct": [3, 4],
+		"multi": "true"
+		}
+	]
 }
